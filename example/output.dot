@@ -1,0 +1,13 @@
+digraph "GRAPH NAME" {
+	"n1"	[label = "n1"]
+	"n2"	[label = "n2"]
+	"n3"	[label = "n3"]
+	"n4"	[label = "n4"]
+	"n5"	[label = "n5"]
+
+	"n1" -> "n2"
+	"n2" -> "n3"
+	"n2" -> "n4"
+	"n4" -> "n1"
+	"n3" -> "n5"
+}
