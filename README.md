@@ -1,5 +1,5 @@
 # A simple C++ directed graph library
-
+###### (note: for a python implementation fo this library, see my other [repository](https://github.com/arodriguez-013/simple_digraph_py)
 See [here](https://en.wikipedia.org/wiki/Directed_graph) for a description of directed graphs
 
 This library is meant to provide an interface to generate simple directed graphs. It allows for adding nodes and edges, as well as updating node labels. Once the graph is created with all nodes and edges, just call the 'dumpToFile()' method on the graph object with the desired filename and an output file in the following format will be created:
